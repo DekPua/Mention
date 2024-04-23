@@ -1,0 +1,32 @@
+{
+  "name": "mention",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch index.ts",
+    "start": "node dist/index.js",
+    "build": "tsup index.ts --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DekPua/mention.git"
+  },
+  "author": "DekPua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DekPua/mention/issues"
+  },
+  "homepage": "https://github.com/DekPua/mention#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5"
+  }
+}
